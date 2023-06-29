@@ -1,0 +1,22 @@
+.card_h2{
+    color: var(--preto-100, #464646);
+    font-weight: normal;
+}
+
+@media screen and (min-width: 0) {
+    .card_h2{
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card_h2{
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card_h2{
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,21 @@
+.expeprofesional_titulo{
+    color: var(--preto-100, #464646);
+}
+
+@media screen and (min-width: 0) {
+    .expeprofesional_titulo{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .expeprofesional_titulo{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .expeprofesional_titulo{
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,5 @@
+.expeprofesional_con__sub{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

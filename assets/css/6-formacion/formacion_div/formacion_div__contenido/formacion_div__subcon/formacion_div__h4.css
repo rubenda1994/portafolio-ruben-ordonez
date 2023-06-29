@@ -1,0 +1,22 @@
+.formacion_div__h4{
+    color: var(--preto-100, #464646);
+}
+
+@media screen and (min-width: 0) {
+    .formacion_div__h4{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacion_div__h4{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1116px) {
+    .formacion_div__h4{
+        font-size: 18px;
+    }
+}
+

@@ -1,0 +1,21 @@
+.contacto_parrafo{
+    color: var(--preto-100, #464646);
+}
+
+@media screen and (min-width: 0) {
+    .contacto_parrafo{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacto_parrafo{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1116px) {
+    .contacto_parrafo{
+        font-size: 18px;
+    }
+}

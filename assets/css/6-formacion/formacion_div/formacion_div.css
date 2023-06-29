@@ -1,0 +1,26 @@
+.formacion_div{
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 0) {
+    .formacion_div{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacion_div{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formacion_div{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}

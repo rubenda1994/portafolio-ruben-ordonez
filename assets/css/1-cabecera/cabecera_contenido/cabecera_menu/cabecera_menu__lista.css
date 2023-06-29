@@ -1,0 +1,17 @@
+@media screen and (min-width: 0) {
+    .cabecera_menu__lista{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecera_menu__lista{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecera_menu__lista{
+        display: flex;
+    }
+}

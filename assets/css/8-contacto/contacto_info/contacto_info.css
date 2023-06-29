@@ -1,0 +1,42 @@
+.contacto_info{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    gap: 30px;
+}
+
+@media screen and (min-width: 0) {
+    .contacto_info{
+        width: 298px;
+        height: 510px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacto_info{
+        width: 622px;
+        height: 480px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contacto_info{
+        width: 300px;
+        height: 480px;
+    }
+}
+
+@media screen and (min-width: 1114px) {
+    .contacto_info{
+        width: 516px;
+        height: 490px;
+    }
+}
+
+@media screen and (min-width: 1124px) {
+    .contacto_info{
+        gap: 30px;
+        width: 913px;
+        height: 515px;
+    }
+}

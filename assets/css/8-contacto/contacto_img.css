@@ -1,0 +1,13 @@
+@media screen and (min-width: 0) {
+    .contacto_img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contacto_img{
+        display: flex;
+        width: 404px;
+        height: 573px;
+    }
+}

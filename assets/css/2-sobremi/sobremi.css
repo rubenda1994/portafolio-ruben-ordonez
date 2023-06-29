@@ -1,0 +1,28 @@
+.sobremi{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 0) {
+    .sobremi{
+        padding: 0 1rem;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobremi{
+        padding: .5rem 3rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobremi{
+        padding: 1rem 4rem;
+        flex-direction: row;
+    }
+}

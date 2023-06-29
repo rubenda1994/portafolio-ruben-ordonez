@@ -1,0 +1,23 @@
+.skills_contenido{
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 0) {
+    .skills_contenido{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills_contenido{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills_contenido{
+        flex-wrap: nowrap;
+    }
+}

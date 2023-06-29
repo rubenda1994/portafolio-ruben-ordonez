@@ -1,0 +1,17 @@
+@media screen and (min-width: 0) {
+    .expeprofesional_con__img{
+        height: 154px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .expeprofesional_con__img{
+        height: 354px;
+    }
+}
+
+@media screen and (min-width: 1116px) {
+    .expeprofesional_con__img{
+        height: 480px;
+    }
+}

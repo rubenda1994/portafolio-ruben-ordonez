@@ -1,0 +1,26 @@
+.contacto_input{
+    font-weight: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto_input--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.contacto_input--invalid .input .input2{
+    border: 1px solid #df2525;
+    border-radius: 7px;
+}
+
+.contacto_input--invalid .input-label .input-label2{
+    color: #df2525;
+}
+
+
+
+
+
+
+

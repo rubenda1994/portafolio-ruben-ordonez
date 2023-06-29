@@ -1,0 +1,25 @@
+.contacto{
+    background: var(--azul-10, #EAF2FD);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+@media screen and (min-width: 0) {
+    .contacto{
+        padding: 4rem 1rem 4rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacto{
+        padding: 3rem 3rem 3rem 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contacto{
+        padding: 3rem 4rem 3rem 4rem;
+    }
+}

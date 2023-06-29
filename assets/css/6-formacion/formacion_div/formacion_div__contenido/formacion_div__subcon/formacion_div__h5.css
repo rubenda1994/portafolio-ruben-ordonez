@@ -1,0 +1,16 @@
+.formacion_div__h5{
+    color: var(--preto-100, #464646);
+    font-weight: normal;
+}
+
+@media screen and (min-width: 0) {
+    .formacion_div__h5{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacion_div__h5{
+        font-size: 15px;
+    }
+}

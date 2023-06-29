@@ -1,0 +1,12 @@
+.sobremi_div__item-link{
+    color: #808080;
+    margin-right: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sobremi_div__item-link:hover{
+    text-decoration: underline;
+}

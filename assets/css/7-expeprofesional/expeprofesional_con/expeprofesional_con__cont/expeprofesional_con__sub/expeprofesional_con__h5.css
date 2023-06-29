@@ -1,0 +1,22 @@
+.expeprofesional_con__h5{
+    color: var(--preto-100, #464646);
+    font-weight: normal;
+}
+
+@media screen and (min-width: 0) {
+    .expeprofesional_con__h5{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .expeprofesional_con__h5{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1116px) {
+    .expeprofesional_con__h5{
+        font-size: 16px;
+    }
+}
